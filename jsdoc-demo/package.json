@@ -1,0 +1,19 @@
+{
+  "name": "jsdoc-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "jsdoc": "tsc src/main.ts && npx jsdoc src/main.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "jsdoc": "^4.0.2"
+  }
+}
